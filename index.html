@@ -3,14 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title> SEO Structure for HTML </title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -19,23 +15,73 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<!-- Add your site or application content here -->
+<div id="page">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Homepage</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Products</a></li>
+      </ul>
+    </nav>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <nav>
+      <h1><a href="index.html">LOGO</a></h1>
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <!--Intro Section-->
+    <section class="sc intro">
+      <h1>Lorem ipsum dolor est</h1>
+      <p>Welcome to Homepage</p>
+    </section>
+    <!--Partners Section-->
+    <section class="sc partners">
+      <figure>
+        <img
+          src="https://design4users.com/wp-content/uploads/2020/04/stay-home-illustration.jpg.pagespeed.ce.G8fWnuXc9u.jpg"
+          alt=""/>
+      </figure>
+
+      <div class="container">
+        <h3>SubHeadline</h3>
+        <h2>Headline</h2>
+        <a href="#" calss="Button">More Info...</a>
+      </div>
+
+    </section>
+    <!--Products Section-->
+    <section class="sc products">
+      <h1>Our Products</h1>
+      <p>Lorem Ipsum Dolor Sit</p>
+    </section>
+
+  </main>
+  <footer>
+    <section calss="sc brand"></section>
+    <!-- Homework:
+    1: from line 53 copy and paste the code for figure and image, and link a different -->
+    <section calss="sc legal"></section>
+<!--    Homework:
+create a NAV, and withen that Nav make an unorganiyed list, with three list
+1 list item for copyrights and company name
+2 List Item for privacy policy [with an anchor tag and href="-->
+  </footer>
+
+</div>
+
 </body>
 
 </html>
